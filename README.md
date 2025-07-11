@@ -39,9 +39,10 @@ Prerequisites:
 Step 1: Clone the Repository. 
 git clone https://github.com/yourusername/llm-weather-summarizer.git
 cd llm-weather-summarizer
-Step 2: Install Dependencies
-Step 3: Install and Configure Ollama
 
+Step 2: Install Dependencies
+
+Step 3: Install and Configure Ollama
 Install Ollama from https://ollama.ai
 
 Pull the required model:
@@ -75,16 +76,25 @@ pythonWeatherConfig(
 The application intelligently handles various input formats:
 
 City Names:
+
 "Tokyo"
+
 "New York"
+
 "London, UK"
 
 Coordinates:
+
 "40.7128, -74.0060"
+
 "( 66.160507, -153.369141 )"
+
 "51.5074 -0.1278"
 
 Natural Language Requests:
+
 "What's the weather like in Paris tomorrow?"
+
 "Give me the forecast for coordinates 35.6762, 139.6503"
+
 "Current conditions in Sydney"
